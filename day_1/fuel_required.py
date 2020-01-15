@@ -1,6 +1,9 @@
 # Advent of Code - 2019
 # Puzzle 1
 
+import sys
+sys.path.insert(1, '../common')
+
 import math
 from read_file import read_file_into_list
 
