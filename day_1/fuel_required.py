@@ -5,7 +5,7 @@ import sys
 sys.path.insert(1, '../common')
 
 import math
-from read_file import read_file_into_list
+from read_fxns import read_file_into_list
 
 def calc_fuel_from_mass(mass):
     """ Given the mass of a spacecraft module return the required fuel to launch
